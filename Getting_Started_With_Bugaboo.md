@@ -1,7 +1,7 @@
 # Getting Started with Bugaboo and the Command Line
 
-**Ryan Melnyk, Haney Lab, UBC**
-**Sept/Oct 2016**
+**Ryan Melnyk, Haney Lab, UBC**  
+**Sept/Oct 2016**  
 ***ryan.melnyk@msl.ubc.ca***
 
 WestGrid is a collection of servers across academic institutions in western Canada.
@@ -65,7 +65,6 @@ Now you can type in ``bug`` at the command prompt and you will be able to log-in
 We will now add a couple of lines to your ``.bash_profile`` file on the bugaboo server. Running the following commands will improve the aesthetics of the command prompt and your ``ls`` command.
 
 ```
-echo "export PS1=\"\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ \"" >> ~/.bash_profile
 echo "export CLICOLOR=1" >> ~/.bash_profile
 echo "export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD" >> ~/.bash_profile
 echo "alias ls='ls --color'" >> ~/.bash_profile
@@ -85,7 +84,7 @@ This is a list of groups you are a member. By default, you should be part of a s
 a group for sharing data within UBC (``ubc``), and if you've got it setup with WestGrid support, our lab group (``wg-haney``).
 
 Being in the ``wg-haney`` group means that you have permission to see what's in everybody else's home folder. For example, running the command
-``ls /home/melnyk`` will let you see what's in my folder. Give it a shot - you should be able to see the directories and files in my home folder. Anybody outside of ``wg-haney`` would get a permission denied error message trying to do this.
+``ls /home/melnyk`` will let you see what's in my folder. Give it a shot - you should be able to see the directories and files in my home folder. Anybody outside of ``wg-haney`` would get a "permission denied" error message trying to do this.
 
 
 ##### Understanding file ownership and group associations
@@ -112,7 +111,7 @@ drwxr-x---  2 melnyk wg-haney 4.0K Sep 30 10:01 shared_labdata
 
 Ok. So this is a list of folders and files in my home directory. I own all of them, as indicated by the ``melnyk`` in the third column.
 The fourth column is the group owner. You should be able to view all of the folders that are associated with the ``wg-haney`` group but
-you will be denied access to the ones in the ``melnyk`` group.
+you will be denied access to the ones in the ``melnyk`` group. Try it!
 
 ##### More explanation on UNIX permissions
 
@@ -145,6 +144,8 @@ says: Modify permissions (``chmod``) for the user owner (``u``) and the associat
 ##### Sharing your files
 
 By convention, I'm recommending that we all make a folder called ``shared_labdata`` in our home folders to store and share raw data.
+
+Run the following commands on bugaboo:
 
 ```
 chgrp wg-haney /home/yourname
