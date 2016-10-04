@@ -36,8 +36,7 @@ these are convenient links to other places in the filesystem. Think of them as s
 ##### RTFM
 
 There's good online documentation for bugaboo. See [here](https://www.westgrid.ca/support/quickstart/bugaboo). Particularly pay attention to
-the information on storage and running jobs. WestGrid is an awesome resource and we want to be diligent users. If you're unsure of anything
-please talk to
+the information on storage and running jobs. WestGrid is an awesome resource and we want to be diligent users. If you're unsure of anything, or want more in-depth explanation please come and talk to me.
 
 ##### (Optional) Adding aliases for common commands.
 
@@ -158,6 +157,21 @@ everything in the folder to ``wg-haney``.
 
 ## Downloading and uploading files to bugaboo.
 
-The ``scp`` (secure copy) command can be used on both your mac and on bugaboo to "push" or "pull" data back and forth.
+The ``scp`` (secure copy) command can be used on both your mac and on bugaboo to "push" or "pull" data back and forth. Usage is relatively straightforward. The first argument is the file to be copied and the second argument is the destination. Note the format for connecting to a remote server. Use the ``-R`` argument to copy entire folders (R = Recursive)
+
+```
+scp rawreads.fa melnyk@bugaboo-fs.westgrid.ca:rawreads
+# The path is relative to the home directory - this would copy to ~/rawreads.
+
+scp -R assembly_folder melnyk@bugaboo-fs.westgrid.ca:/global/scratch/melnyk
+# or you can use absolute path.
+
+scp melnyk@bugaboo-fs.westrgrid.ca:genomedb.tre .
+# retrieving a file and copying to local directory
+```
+
+##### FTP Client (FileZilla)
+
+Alternatively, you can use an FTP client. I recommend FileZilla.  This integrates file browsers to simplify the process as well as queues which can come in handy for copying large datasets.  Use ``bugaboo-fs.westgrid.ca`` as the host, your credentials and Port 22, then hit "QuickConnect".
 
 ***THIS PART IN PROGRESS***
