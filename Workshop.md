@@ -29,6 +29,7 @@ rsync -chavzP --no-p --no-g --stats yourname@graham.computecanada.ca:projects/de
 ```
 pip install jupyter
 pip install pyparanoid
+brew tap brewsci/bio
 brew install FastTree
 git clone https://github.com/ryanmelnyk/PhyloTools.git
 git clone https://github.com/ryanmelnyk/GenomeAssembly.git
