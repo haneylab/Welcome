@@ -5,7 +5,10 @@ This repository is an attempt to compile the computational resources you may use
 ## Slack
 
 [Slack](https://slack.com) is a nice tool to communicate with other lab members. Important information (and sometimes less important) will be shared on [our team's slack](https://haneylab.slack.com), so do request access if it is not already done.
+*Ensure you suscribe to the important channels such as `#whats_happenin` and `lab_biz`*
 
+## Calendar
+We have a [lab calendar](https://calendar.google.com/calendar/embed?src=m2midv6drqud0092gjf60lcnrs%40group.calendar.google.com&ctz=America%2FVancouver) to plan meetings and important events. Please request read access (ask Cara). A summary of upcomming events will also be listed on [#whats_happening](https://haneylab.slack.com/messages/C4X9M8LDB)
 
 ## WestGrid / Owncloud
 
