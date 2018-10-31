@@ -18,7 +18,7 @@ We have a [detailed tutorial](WestGrid_Onboarding.md) to get onboard.
 
 
 ## Michael Smith Laboratories (MSL) onboarding
-There is a very useful [MSL specific onboarding checklist](https://internal.msl.ubc.ca/sites/default/files/MSL%20onboarding%20checklist%202018%20Apr.pdf) that will list Admin/HR/Health and safety/... information. In particular, you will need to take a list of short, online-based, madatory course 
+There is a very useful [MSL specific onboarding checklist](https://internal.msl.ubc.ca/sites/default/files/MSL%20onboarding%20checklist%202018%20Apr.pdf) that will list Admin/HR/Health and safety/... information. In particular, you will need to take a list of short, online-based, madatory courses.
 
 ## Github Organization
 
