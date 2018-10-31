@@ -16,6 +16,10 @@ We have a [lab calendar](https://calendar.google.com/calendar/embed?src=m2midv6d
 We have a [detailed tutorial](WestGrid_Onboarding.md) to get onboard.
 
 
+
+## Michael Smith Laboratories (MSL) onboarding
+There is a very useful [MSL specific onboarding checklist](https://internal.msl.ubc.ca/sites/default/files/MSL%20onboarding%20checklist%202018%20Apr.pdf) that will list Admin/HR/Health and safety/... information. In particular, you will need to take a list of short, online-based, madatory course 
+
 ## Github Organization
 
 [Github](https://github.com/) is a great resource to work on programming and scripting projects.
@@ -28,5 +32,6 @@ you may want to create a repository within the [haneylab github organisation](ht
 [Onshape](https://cad.onshape.com/) is a fine collaborative/cloud-based software for Computer Assisted Design. We use this tool mostly to build custom hardware.
 To take part, make a free account and *send your identifier to [@qgeissmann](mailto:qgeissmann@gmail.com) to get access*.
 Then, visit [our team page](https://cad.onshape.com/documents?nodeId=5bd0f69234165112c7da2201&resourceType=team).
+
 
 
