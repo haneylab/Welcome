@@ -15,6 +15,9 @@ We have a [lab calendar](https://calendar.google.com/calendar/embed?src=m2midv6d
 [WestGrid](https://www.westgrid.ca) is a computational network that we use both for common storage (via OwnCloud) of presentations, protocols and so on, and for bioinformatics jobs.
 We have a [detailed tutorial](WestGrid_Onboarding.md) to get onboard.
 
+## Spreadsheets
+
+We have various editable spreadsheets to list incoming lab meetings, items to order, allocate chores, etc. All the relant links are available [here](https://owncloud.westgrid.ca/index.php/apps/documents/#11630206). *Note that these are sensitive data, so you need your WestGrid/Owncloud (see [above]()) credentials to access this page*.
 
 
 ## Michael Smith Laboratories (MSL) onboarding
