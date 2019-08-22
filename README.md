@@ -36,5 +36,10 @@ you may want to create a repository within the [haneylab github organisation](ht
 To take part, make a free account and *send your identifier to [@qgeissmann](mailto:qgeissmann@gmail.com) to get access*.
 Then, visit [our team page](https://cad.onshape.com/documents?nodeId=5bd0f69234165112c7da2201&resourceType=team).
 
+## Book a room in MSL
+
+1. Check availability of the rooms on https://roombooking.msl.ubc.ca. **Do not try to book there**, this is read only.
+2. Log on https://www.msl.ubc.ca/book-a-room/msl-personnel/, find your room and fill the form.
+
 
 
