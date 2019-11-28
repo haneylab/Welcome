@@ -28,7 +28,7 @@ There is a very useful [MSL specific onboarding checklist](https://internal.msl.
 [Github](https://github.com/) is a great resource to work on programming and scripting projects.
 If you intend to collaborate on a programming project, or even analyse your data in a scripting language (`R`/`python`/...), 
 you may want to create a repository within the [haneylab github organisation](https://github.com/haneylab/). 
-*Send your github identifier to  [@qgeissmann](mailto:qgeissmann@gmail.com)to get access*.
+*Send your github identifier to [@qgeissmann](mailto:qgeissmann@gmail.com)to get access*.
 
 ## CAD/3D printing on onshape
 
